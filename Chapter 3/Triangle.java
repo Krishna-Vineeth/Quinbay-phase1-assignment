@@ -18,7 +18,6 @@ class Triangle {
         }
         
         int y = x;
-        x = 27;
         
         Triangle t5 = ta[2];
         ta[2].area = 343;
