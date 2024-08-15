@@ -20,7 +20,7 @@ class Boat {
     }
 }
     
-public class polymorphism {
+public class inheritance {
     public static void main(String[] args){
         Boat b1 = new Boat();
         
