@@ -35,5 +35,6 @@ public class UsingArrayList {
             System.out.print(element + " ");
         }
         System.out.println();
+        
     }
 }
