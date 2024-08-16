@@ -28,9 +28,5 @@ public class SortMountains {
             this.name = name;
             this.height = height;
         }
-
-        public String toString( ) {
-            return name + " " + height;
-        }
     }
 }
