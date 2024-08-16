@@ -1,11 +1,12 @@
 public class MultipleException {
     public static void main(String[] args) {
         try {
+            
             int[] numbers = {1, 2, 3};
             System.out.println("Accessing an element outside the array bounds:");
             System.out.println(numbers[1]);
 
-            int division = 10 / 0;
+            int division = 10 / 1;
             System.out.println("Result of division by zero: " + division);
 
             String text = null;
@@ -41,6 +42,6 @@ public class MultipleException {
             System.out.println("Caught Exception: " + e.getMessage());
         }
 
-        System.out.println("Program continues...");
+        System.out.println("Program is working fine!");
     }
 }
